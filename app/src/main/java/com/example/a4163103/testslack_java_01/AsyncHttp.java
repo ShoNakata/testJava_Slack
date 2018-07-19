@@ -15,9 +15,7 @@ public class AsyncHttp extends AsyncTask<Uri.Builder, Void, String> {
 
     private String token = "";      //自分のワークスペースのトークン
     private SlackWebApiClient webApiClient;
-
-
-
+    
     private Activity activity;
 
     public AsyncHttp(MainActivity mainActivity) {
